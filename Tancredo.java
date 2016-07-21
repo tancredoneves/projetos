@@ -12,5 +12,10 @@ public class CompareStrings
         
         System.out.println("Entre com o segundo !");
         s2 = in.nexLine();
+        
+        if ( se.compareTo(s2) >0 )
+            System.out.println("primera maior");
+        else if (s1.compareTo(s2) < 0)   
+            System.out.println("segunda maior");
     }
 }
