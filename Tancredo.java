@@ -14,8 +14,10 @@ public class CompareStrings
         s2 = in.nexLine();
         
         if ( se.compareTo(s2) >0 )
-            System.out.println("primera maior");
+            System.out.println("primera maior.");
         else if (s1.compareTo(s2) < 0)   
-            System.out.println("segunda maior");
+            System.out.println("segunda maior.");
+        else
+            System.out.println("são iguais.");
     }
 }
